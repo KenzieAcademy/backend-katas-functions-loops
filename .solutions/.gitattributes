@@ -9,5 +9,5 @@
 # Also note that the pattern dir/* does not match files under sub-directories of dir/.
 
 # The second pattern is essential for ensuring that .gitattributes itself is not encrypted.
-** filter=git-crypt diff=git-crypt
+* filter=git-crypt diff=git-crypt
 .gitattributes !filter !diff
