@@ -1,14 +1,15 @@
-## Overview
+## Overview - Functions and Loops Katas
 
-A kata is an individual exercise where you practice a programming skill through repetition. Today you will practice using Pyhthon loops and functions. The functions start out trivial and ramp up in difficulty. The main goals of these katas are:
+A kata is an individual exercise where you practice a programming skill through repetition. This kata focuses on Python loops and functions. The functions start out trivial, and ramp up in difficulty. The main goals of these katas are:
 
-get you used to writing and calling functions that take arguments and return results in Python
-get you used to breaking down a problem into the various parts of a for loop in Python
-You will create a single file for all these exercises. Your functions should print the required result to the console. Unlike other katas we've done up until now, most of these build on each other, which means that you'll need to complete them in order.
+ - Gain familiarity with writing and calling functions that take arguments and return results
+ - Decomposing a problem into the various parts of a for-loop
+ 
+You are provided a scaffold file named `main.py`, which contains an empty definition of each function. Complete each function so it prints the required result to the console. Unlike other katas we've done up until now, most of these build on each other, which means that you'll need to complete them in order.
 
 ### Add
 
-Write a function named "add" that takes two arguments and returns their sum.
+Write a function named `add` that takes two arguments and returns their sum.
 
 You may use built-in operators to finish the definition.
 
@@ -65,8 +66,8 @@ The number in brackets is the 8th fibonacci number.
 #### Hints
 
 The answer to most of these will look similar. They will typically involve:
-declaring a variable to keep track of a final result
-writing a for loop to consistently modify the result
-returning the result
-Try writing a separate function that takes an argument and creates a div displaying that argument. Doing so will allow you to write pure functions that only deal with the problem at hand (e.g. adding two numbers, calculating the factorial of a number, etc), and pass their results to the function whose only responsibility is to display stuff on a page.
+ - declaring a variable to keep track of a final result
+ - writing a for loop to consistently modify the result
+ - returning the result
+ 
 If you struggle for more than 5 minutes, ask for help! This is an exercise in critical thinking, not torture.
