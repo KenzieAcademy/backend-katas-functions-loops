@@ -56,10 +56,22 @@ Write a function named `fibonacci` that takes an integer n and returns the [nth 
 
 The number in brackets is the 8th fibonacci number.
 
-#### Hints
+### Hints
 The answer to most of these will look similar. They will typically involve:
  - declaring a variable to keep track of a final result
  - writing a for loop to consistently modify the result
  - returning the result
  
 If you struggle for more than 5 minutes, ask for help! This is an exercise in critical thinking, not torture.
+
+### Testing
+This assignment comes bundled with a "Test Suite" -- a set of tests to validate each function you write.  VSCode IDE has a built-in test runner framework.  Read [this article](https://code.visualstudio.com/docs/python/testing) about how to enable test discovery in your VSCode IDE.  You will need to know how to run similar tests in future assignments.
+
+### PR (Pull Request) Workflow for this Assignment
+1. *Fork* this repository into your own personal github account.
+2. Then *Clone* your own repo to your local development machine.
+3. Create a separate branch named `dev`, and checkout the branch.
+5. Commit your changes, then `git push` the branch back to your own github account.
+5. From your own Github repo, create a pull request (PR) from your `dev` branch back to your own master.
+6. Copy/Paste the URL **link to your PR** as your assignment submission.
+7. Your grader will post code review comments inline with your code, in your github account. Be sure to respond to any comments and make requested changes. **RESUBMIT** a new link to your PR after making changes.  This is the code review iteration cycle.
