@@ -4,8 +4,9 @@ A kata is an individual exercise where you practice a programming skill through 
 
  - Gain familiarity with writing and calling functions that take arguments and return results
  - Decomposing a problem into the various parts of a for-loop
+ - Familiarizing with VSCode built-in test suite 
  
-You are provided a scaffold file named `main.py`, which contains an empty definition of each function. Complete each function so it prints the required result to the console. Unlike other katas we've done up until now, most of these build on each other, which means that you'll need to complete them in order.
+You are provided a starter file named `main.py`, which contains an empty definition of each function. Complete each function so it prints the required result to the console. Unlike other katas we've done up until now, most of these build on each other, which means that you'll need to complete them in order.
 
 ### Add
 
@@ -49,7 +50,7 @@ You may not use built-in arithmetic operators or functions. Instead, use functio
 
 Display their result of calling factorial(4), which should be 24
 
-(4 _ 3 _ 2 \* 1)
+    4 * 3 * 2 * 1 = 24
 
 ### Fibonacci
 
