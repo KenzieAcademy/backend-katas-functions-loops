@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Implements math functions without using operators except for '+' """
+"""Implements math functions without using operators except for '+' and '-' """
 
 __author__ = "???"
 
