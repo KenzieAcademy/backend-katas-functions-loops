@@ -11,13 +11,13 @@ You are provided a starter file named `main.py`, which contains an empty definit
 ### Add
 Complete the function named `add` which takes two integers and returns their sum.
  - The function should handle negative values
- - Use built-in operators (+) is allowed.
+ - Use of built-in operators `+` is allowed.
  - Display the result of calling add(2, 4), which should be 6.
 
 ### Multiply
 Complete the function named `multiply` which takes two integers and returns their product.
- - Use built-in operators (-) is allowed.
- - Use of all other built-in arithmetic operators or functions is __NOT__ allowed (e.g. `*`, `**`, `+`, `\`, `\\`, `sum()`, `prod()`).
+ - Use of built-in operator `-` or `operator.neg()` is allowed.
+ - Use of all other built-in arithmetic operators or functions is __NOT__ allowed (e.g. `*`, `**`, `+`, `/`, `//`, `sum()`, `prod()`)
  - Use a for-loop which calls the `add` function you wrote earlier.
  - This function must correctly handle negative values.
  - Display the result of calling `multiply(6, -8)`, which should be -48.
