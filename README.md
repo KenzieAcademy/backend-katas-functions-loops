@@ -16,7 +16,8 @@ Complete the function named `add` which takes two integers and returns their sum
 
 ### Multiply
 Complete the function named `multiply` which takes two integers and returns their product.
- - Use of built-in arithmetic operators or functions is NOT allowed.
+ - Use built-in operators (-) is allowed.
+ - Use of all other built-in arithmetic operators or functions is __NOT__ allowed (e.g. `*`, `**`, `+`, `\`, `\\`, `sum()`, `prod()`).
  - Use a for-loop which calls the `add` function you wrote earlier.
  - This function must correctly handle negative values.
  - Display the result of calling `multiply(6, -8)`, which should be -48.
