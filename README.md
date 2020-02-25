@@ -16,9 +16,9 @@ Complete the function named `add` which takes two integers and returns their sum
 
 ### Multiply
 Complete the function named `multiply` which takes two integers and returns their product.
- - Use of built-in operator `-` or `operator.neg()` is allowed.
+ - Use of built-in operator `-` or `operator.neg()` is allowed, and also the `abs()` function is allowed.
  - Use of all other built-in arithmetic operators or functions is __NOT__ allowed (e.g. `*`, `**`, `+`, `/`, `//`, `sum()`, `prod()`)
- - Use a for-loop which calls the `add` function you wrote earlier.
+ - Use a for-loop which calls the `add()` function you wrote earlier.
  - This function must correctly handle negative values.
  - Display the result of calling `multiply(6, -8)`, which should be -48.
 
@@ -48,14 +48,14 @@ Write a function named `factorial` that takes a single argument and returns the 
     4 * 3 * 2 * 1 = 24
 
 ### Fibonacci
-Write a function named `fibonacci` that takes an integer n and returns the [nth Fibonacci number](https://simple.wikipedia.org/wiki/Fibonacci_number).
+Write a function named `fibonacci` that takes an integer n and returns the [nth Fibonacci number](https://simple.wikipedia.org/wiki/Fibonacci_number).  For the purposes of this assignment, we'll be using the _classical_ series which starts counting at 0, rather than the _combinatorial_ series which starts counting at 1.
  - You may not use built-in arithmetic operators or functions.
- - Use functions you wrote in earlier katas to write this function.
- - Display the result of calling `fibonacci(8)`, which should be 13:
+ - Use functions you wrote earlier (e.g. "add") to write this function.
+ - Display the result of calling `fibonacci(8)`, which should be 21:
 
-    0 1 1 2 3 5 8 [13] 21
+    `0 1 1 2 3 5 8 13 [21] ...`
 
-The number in brackets is the 8th fibonacci number.
+The number in brackets is the 8th fibonacci number, if we start counting terms from 0 instead of 1.
 
 ### Hints
 The answer to most of these will look similar. They will typically involve:
