@@ -45,7 +45,7 @@ class TestMain(unittest.TestCase):
     def test_fibonacci(self):
         self.assertIsNotNone(main.fibonacci)
         fibs = (0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89)
-        for n in range(1, 11):
+        for n in range(11):
             self.assertEqual(main.fibonacci(n), fibs[n])
 
 
