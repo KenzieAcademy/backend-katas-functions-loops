@@ -1,6 +1,6 @@
 # Functions and Loops
 
-This exercise focuses on Python loops and functions. The functions start out trivial, and ramp up in difficulty. The main goals of these exercises are:
+These exercises focuses on Python loops and functions. The functions start out trivial and ramp up in difficulty. The main goals of these exercises are:
 
  - Gain familiarity with writing and calling functions that take arguments and return results
  - Decompose a problem into the various parts of a for-loop
